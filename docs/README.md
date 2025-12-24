@@ -2,15 +2,18 @@
 
 ## Project Management Overview
 
-OctoAcme follows an iterative, customer-centric project management lifecycle structured into five distinct phases: Initiation, Planning, Execution, Release, and Retrospective. The process begins with a lightweight 'Project One-pager' to validate business needs and success metrics. Governance is maintained through clear decision gates, ensuring that projects only move from planning to execution once stakeholders agree on priorities and resource availability is confirmed.
+OctoAcme follows an iterative, customer-centric project management lifecycle structured into six key phases:
 
-Success is driven by clear ownership and collaboration between four primary roles: Product Managers (PdM), Project Managers (PM), Developers, and QA. The PdM defines the 'what' and 'why' through prioritized backlogs, while the PM focuses on the 'how' and 'when' by managing schedules, risks, and stakeholder communication. Developers and QA specialists collaborate throughout the execution phase to implement features and validate them against strict acceptance criteria, fostering a culture of transparency and psychological safety.
+1. **Initiation**: Projects begin with a lightweight 'Project One-pager' to validate business needs and success metrics.
+2. **Planning**: Teams define scope, timelines, and resource allocation. Clear decision gates ensure stakeholder agreement before moving to execution.
+3. **Execution**: Governed by a consistent team rhythm with daily or twice-weekly standups and weekly delivery syncs. Work is tracked through GitHub Projects with a standardized pipeline from backlog to completion.
+4. **Risk Management**: Proactive risk identification and mitigation through a dedicated Risk Register and tiered escalation path (Team -> PM -> Product Lead -> Sponsor).
+5. **Release**: Standardized checklists for major, minor, and patch releases, incorporating staging smoke tests and post-deployment verification to minimize production risks.
+6. **Retrospective**: Mandatory retrospectives where teams convert learnings into actionable backlog items, fostering continuous improvement.
 
-The execution phase is governed by a consistent team rhythm, including daily or twice-weekly standups and weekly delivery syncs. OctoAcme utilizes GitHub Projects for visual tracking, moving work through a standardized pipeline from backlog to completion. Communication is structured via a dedicated Risk Register and a tiered escalation path (Team -> PM -> Product Lead -> Sponsor), ensuring that blockers are resolved quickly. Stakeholders are kept informed through monthly updates and a 'single source of truth' document located within the project repository.
+Success is driven by clear ownership and collaboration between multiple roles including Product Managers, Project Managers, Developers, UX Designers, Tech Leads, Release Managers, Customer Success Managers, and Data Analysts. Quality is integrated throughout the workflow through a 'shift-left' approach, requiring automated testing, security scanning, and code reviews before any code is merged.
 
-Quality is integrated into the workflow through a 'shift-left' approach, requiring automated unit and integration tests, security scanning, and linting within the CI pipeline before any code is merged. Every pull request is kept small and must pass at least one peer review. For deployments, OctoAcme employs standardized checklists for major, minor, and patch releases, incorporating staging smoke tests and post-deployment verification to minimize production risks. Continuous improvement is then realized through mandatory retrospectives where teams convert learnings into actionable backlog items.
-
-## Documentation Index
+## Process Docs
 
 - [Project Management Overview](octoacme-project-management-overview.md)
 - [Project Initiation Guide](octoacme-project-initiation.md)
